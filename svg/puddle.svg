@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 28" width="52" height="28">
+  <!-- ombra -->
+  <ellipse cx="26" cy="25" rx="23" ry="5" fill="rgba(0,0,0,0.20)"/>
+  <!-- strati acqua -->
+  <ellipse cx="26" cy="14" rx="26" ry="14" fill="rgba(18,45,100,0.92)"/>
+  <ellipse cx="27" cy="13" rx="22" ry="11" fill="rgba(32,68,148,0.82)"/>
+  <ellipse cx="28" cy="12" rx="18" ry="9"  fill="rgba(50,95,185,0.73)"/>
+  <ellipse cx="29" cy="11" rx="14" ry="7"  fill="rgba(72,118,210,0.61)"/>
+  <!-- riflesso principale -->
+  <ellipse cx="20" cy="9"  rx="10" ry="5"  fill="rgba(115,175,240,0.47)"/>
+  <!-- highlight bianco brillante -->
+  <ellipse cx="17" cy="8"  rx="4"  ry="2.5" fill="rgba(210,235,255,0.78)"/>
+  <ellipse cx="16" cy="7"  rx="2"  ry="1.2" fill="rgba(245,250,255,0.90)"/>
+</svg>

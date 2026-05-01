@@ -1,0 +1,20 @@
+# Editor / IDE
+.vscode/
+.idea/
+*.suo
+*.user
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Node (se mai usato)
+node_modules/
+npm-debug.log*
+
+# Claude Code
+.claude/

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buggy3D</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <canvas id="renderCanvas"></canvas>
+
+  <!-- ─── HUD overlay (visibile solo durante il gioco) ─────────────────────── -->
+  <div id="hud" class="hidden">
+    <div id="hud-score">SCORE 000000</div>
+    <div id="hud-lives">♥♥♥</div>
+    <div id="hud-timer"></div>
+    <div id="hud-speed">0 km/h</div>
+    <div id="hud-diff"></div>
+    <div id="hud-flags"></div>
+    <div id="hud-bonus" class="hidden"></div>
+    <div id="hud-gameover" class="hidden">
+      <div class="go-title">GAME OVER</div>
+      <div class="go-score"></div>
+      <div class="go-cont">INVIO per continuare</div>
+    </div>
+    <div id="hud-pause" class="hidden">
+      <div class="pause-title">PAUSA</div>
+      <div class="pause-hint">[P] Riprendi &nbsp; [M] Musica</div>
+    </div>
+  </div>
+
+  <!-- ─── Schermata highscore ──────────────────────────────────────────────── -->
+  <div id="hs-screen">
+    <div id="hs-title">BUGGY 3D</div>
+    <div id="hs-sub">── CLASSIFICA ──</div>
+    <div id="hs-list"></div>
+    <div id="hs-dots"></div>
+    <div id="hs-hint1">[1] Facile &nbsp; [2] Normale &nbsp; [3] Difficile &nbsp; [4] Esperto</div>
+    <div id="hs-hint2">[R] Azzera &nbsp; [ESC] Esci</div>
+  </div>
+
+  <!-- ─── Schermata inserimento nome ──────────────────────────────────────── -->
+  <div id="name-screen" class="hidden">
+    <div id="name-title">NUOVO RECORD!</div>
+    <div id="name-score">Punteggio: 000000</div>
+    <div id="name-prompt">Inserisci il tuo nome (3 caratteri):</div>
+    <div id="name-input-box"><div id="name-input-text">___</div></div>
+    <div id="name-hint1">Lettere/Numeri per scrivere, BACKSPACE per cancellare</div>
+    <div id="name-hint2">INVIO per confermare</div>
+  </div>
+
+  <!-- ZzFX -->
+  <script src="js/libs/zzfx.js"></script>
+  <script src="js/libs/zzfxm.js"></script>
+  <!-- Babylon.js 7 -->
+  <script src="https://cdn.babylonjs.com/babylon.js"></script>
+
+  <!-- Moduli gioco (ordine: dipendenze prima) -->
+  <script src="js/constants.js"></script>
+  <script src="js/utils.js"></script>
+  <script src="js/audio.js"></script>
+  <script src="js/highscore.js"></script>
+  <script src="js/road.js"></script>
+  <script src="js/player.js"></script>
+  <script src="js/obstacles.js"></script>
+  <script src="js/entities.js"></script>
+  <script src="js/hud.js"></script>
+  <script src="js/screens.js"></script>
+  <script src="js/engine.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

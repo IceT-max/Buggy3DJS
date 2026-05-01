@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 34" width="24" height="34">
+  <!-- coperchio superiore -->
+  <ellipse cx="12" cy="3"  rx="12" ry="4" fill="#aa2318"/>
+  <ellipse cx="12" cy="2"  rx="10" ry="3" fill="#c83c28"/>
+  <ellipse cx="12" cy="1"  rx="7"  ry="2" fill="#e05035"/>
+  <!-- corpo -->
+  <rect x="0"  y="3"  width="24" height="28" fill="#911f14"/>
+  <rect x="6"  y="3"  width="12" height="28" fill="#cd3c26"/>
+  <rect x="9"  y="3"  width="6"  height="28" fill="#e05035"/>
+  <!-- cerchi metallici (3 bande) -->
+  <rect x="0" y="6"  width="24" height="4" fill="#413a2c"/>
+  <rect x="0" y="6"  width="24" height="2" fill="#696050"/>
+  <rect x="0" y="15" width="24" height="4" fill="#413a2c"/>
+  <rect x="0" y="15" width="24" height="2" fill="#696050"/>
+  <rect x="0" y="25" width="24" height="4" fill="#413a2c"/>
+  <rect x="0" y="25" width="24" height="2" fill="#696050"/>
+  <!-- bullone centrale -->
+  <ellipse cx="12" cy="17" rx="4" ry="4" fill="#37302a"/>
+  <ellipse cx="12" cy="17" rx="3" ry="3" fill="#5f5540"/>
+  <ellipse cx="12" cy="17" rx="1.5" ry="1.5" fill="#82765a"/>
+  <!-- fondo -->
+  <ellipse cx="12" cy="31" rx="12" ry="4" fill="#781c10"/>
+</svg>

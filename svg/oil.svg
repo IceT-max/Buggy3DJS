@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 58 32" width="58" height="32">
+  <!-- blob principale olio -->
+  <ellipse cx="29" cy="16" rx="29" ry="16" fill="rgba(12,10,14,0.94)"/>
+  <ellipse cx="32" cy="13" rx="22" ry="12" fill="rgba(14,10,18,0.94)"/>
+  <ellipse cx="25" cy="18" rx="20" ry="10" fill="rgba(10,8,14,0.94)"/>
+  <!-- riflesso arcobaleno (effetto olio su asfalto) -->
+  <ellipse cx="22" cy="12" rx="9" ry="5"
+           fill="none" stroke="rgba(120,60,180,0.25)" stroke-width="2"/>
+  <ellipse cx="22" cy="12" rx="6" ry="3"
+           fill="none" stroke="rgba(60,120,180,0.20)" stroke-width="1.5"/>
+  <ellipse cx="35" cy="18" rx="7"  ry="4"
+           fill="none" stroke="rgba(180,120,60,0.18)" stroke-width="1.5"/>
+</svg>

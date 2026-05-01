@@ -1,0 +1,9 @@
+<!-- Flag checkpoint: palo bianco + banner colorato (tintato dinamicamente) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 54" width="12" height="54">
+  <!-- palo -->
+  <rect x="5" y="0" width="2" height="54" fill="white"/>
+  <!-- bandiera (colore applicato via tint PixiJS) -->
+  <rect x="7" y="2" width="14" height="18" fill="white"/>
+  <!-- triangolino laterale -->
+  <polygon points="7,2 7,20 7,11" fill="rgba(0,0,0,0.2)"/>
+</svg>

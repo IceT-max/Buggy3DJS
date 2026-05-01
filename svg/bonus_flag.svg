@@ -1,0 +1,12 @@
+<!-- Bonus flag: palino + gagliardetto triangolare, colorato via tint PixiJS -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 28" width="16" height="28">
+  <!-- ombra base -->
+  <ellipse cx="3" cy="27" rx="5" ry="2" fill="rgba(0,0,0,0.16)"/>
+  <!-- palino -->
+  <rect x="2" y="2" width="2" height="26" fill="#505050"/>
+  <!-- gagliardetto triangolare -->
+  <polygon points="4,2 16,9 4,16" fill="white"/>
+  <!-- bordo -->
+  <polygon points="4,2 16,9 4,16"
+           fill="none" stroke="rgba(60,60,60,0.6)" stroke-width="0.8"/>
+</svg>
