@@ -33,14 +33,6 @@ body {
   text-shadow: 1px 1px 0 #000, -1px 1px 0 #000;
 }
 
-#hud-lives {
-  position: absolute;
-  top: 10px; right: 14px;
-  font-size: 20px;
-  font-weight: bold;
-  color: #ff5555;
-  text-shadow: 1px 1px 0 #000;
-}
 
 #hud-timer {
   position: absolute;

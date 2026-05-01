@@ -207,7 +207,7 @@ function _createRamp(name, w, h, d, scene) {
 
 // ─── BUMPER (rampa di salto 3D) ───────────────────────────────────────────────
 BB.Bumper = class {
-  constructor(x3d, absZ, textures, scene) {
+  constructor(x3d, absZ, scene) {
     this.x3d  = x3d;
     this.absZ = absZ;
 

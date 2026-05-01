@@ -151,7 +151,7 @@ BB.Engine = class {
       const { l, r } = this.road.edgesAt(-60);
       const x3d  = l + 30 + rng() * (r - l - 60);
       const absZ = this.dist + SPAWN_AHEAD;
-      const bmp  = new BB.Bumper(x3d, absZ, this._textures, this._scene);
+      const bmp  = new BB.Bumper(x3d, absZ, this._scene);
       this.bumpers.push(bmp);
       this.nextBump = this.dist + 1800 + rng() * 2200;
     }

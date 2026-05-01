@@ -33,8 +33,7 @@
   // ─── CARICA TEXTURE SVG ──────────────────────────────────────────────────────
   const SVG = 'svg/';
   const textures = {};
-  const texKeys  = ['buggy','rock','log','log_m','log_l','barrel',
-                    'puddle','oil','bumper','flag','bonus_flag','particle'];
+  const texKeys  = ['puddle', 'oil', 'particle'];
   for (const k of texKeys) {
     textures[k] = new BABYLON.Texture(SVG + k + '.svg', scene);
     textures[k].hasAlpha = true;
